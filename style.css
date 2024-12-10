@@ -1,0 +1,305 @@
+body {
+    color: white;
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+p{
+    color: #ffffff !important;
+}
+.header-section{
+    width: 100%;
+    padding: 0 60px;
+    margin: auto;
+    border-bottom-left-radius: 80px;
+    background-image: linear-gradient(180deg, #000000 0%, #272727 100%);
+
+}
+.Xenon-content{
+    justify-content: space-between;
+}
+svg.bi.bi-bank {
+    margin-top: -5px;
+}
+.navbar-brand{
+    font-size: 24px !important;
+    color: #ffffff !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff !important;
+    padding: 0 15px !important;
+    font-size: 16px !important;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #4CAF50 !important;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    background-color: #4CAF50 !important;
+    color: #fff !important;
+}
+.details ul{
+    position: relative;
+    padding-left: 0 !important;
+}
+.details ul::before{
+    position: absolute;
+    content: "";
+    background-color: grey;
+    width: 2px;
+    height: 200px;
+    left: 5px;
+    top: 0;
+}
+.details ul li{
+    position: relative;
+    padding-left: 20px;
+    list-style-type: none;
+    color: #ffffff;
+}
+.details ul li::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #4CAF50;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.Xenon-section {
+    padding: 50px 20px;
+}
+
+.Xenon-title {
+    font-size: 100px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px !important;
+
+}
+.Xenon-title span {
+color: lightgreen;
+}
+.Xenon-content {
+    display: flex;
+    gap: 90px;
+    padding-top: 20px;
+}
+
+.info {
+    max-width: 350px;
+    font-size: x-large;
+    text-align: justify;
+}
+.btnbtn-custom{
+padding-bottom: 20px;
+}
+
+.image {
+    border-radius: 20px;
+    overflow: hidden;
+}
+.text-center {
+    color:white;
+}
+.info-box {
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px 0;
+    word-spacing: 5px;
+}
+
+.benefits-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    text-align: justify;
+    width: 100%;
+    max-width: 90%;
+    margin: 20px auto 0;
+}
+.benefits-text {
+    flex: 1;
+}
+.financial-title p{
+    color: #000000 !important;
+}
+.financial-title{
+    color: black;
+}
+.financial-title span{
+    color: #4CAF50;
+}
+.text-center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text-center .btn{
+    width: 200px;
+    
+    color: #000000 !important;
+}
+.benefits-image {
+    width: 500px;
+    height: 333px;
+}
+.benefits-text p{
+    color: #000000 !important;
+}
+.benefits-image img {
+    width: 500px;
+    border-radius: 30px;
+}
+.custom-bg {
+    background-color: white;
+}
+.details ul{
+    position: relative;
+    padding-left: 0 !important;
+}
+.details ul::before{
+    position: absolute;
+    content: "";
+    background-color: grey;
+    width: 2px;
+    height: 200px;
+    left: 5px;
+    top: 0;
+}
+.details ul li{
+    position: relative;
+    padding-left: 20px;
+    list-style-type: none;
+    color: #ffffff;
+}
+.details ul li::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #4CAF50;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+
+.empower-left-card h1 span{
+    color: #4CAF50;
+    text-decoration: underline;
+}
+.empower-text p{
+    color: #000000 !important;
+    
+}
+.empower-text{
+   width: 450px;
+}
+.empower-img img{
+    width: 150px !important;
+    height: 120px !important;
+    border-radius: 12px;
+}
+.row.empower-card-item{
+    padding-left: 15px !important;
+    margin-top: 30px !important;
+}
+.empower-right-card {
+    margin-top: 50px;
+}
+.empower-text.empower-text-right{
+    width: 200px !important;
+}
+.empower-section .row{
+    align-items: center;
+}
+.empower-img-right img{
+    width: 150px !important;
+    height: 180px !important;
+    border-radius: 12px;
+}
+.social-impact p{
+    color: #000000 !important;
+    margin-bottom: 10px !important;
+    font-size: 20px;
+}
+.social-impact-img{
+    width: 120px;
+    height: 30px;
+    margin-bottom: 10px !important;
+}
+.social-impact h1 span{
+    color: #4CAF50;
+    text-decoration: underline;
+}
+.social-impact .row{
+    align-items: center;
+    padding: 30px 0;
+}
+
+.testi-item {
+    padding: 10px 40px;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #f8f8f8 0%, #f3f3f3 100%);
+    border-radius: 20px;
+}
+.testi-row-bottom-item img{
+    transform: scale(0.8);
+}
+.testi-item:hover{
+    background-color: #272727 !important;
+}
+.bi-quote{
+    transition: 0.5s;
+}
+.testi-item .bi-quote:hover{
+    fill: #33bbcf !important;
+}
+.founder-blk{
+    display: flex;
+    gap: 25px;
+    text-align: left;
+    margin-top: 30px;
+}
+.founder-blk h5{
+    font-size: 20px !important;
+    color: #000000 !important;
+    font-weight: 500 !important;
+}
+.founder-blk p{
+    font-size: 16px !important;
+    color: #000000 !important;
+}
+.quote-left{
+    margin-bottom: 20px;
+}
+.founder-img{
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.founder-img img{
+    width: 100%;
+    display: block;
+}
+.testi-icons-block{
+    justify-content: space-between;
+    margin: 0 30px !important;
+}
+svg.bi.bi-arrow-left-square {
+    margin-right: 20px;
+}
